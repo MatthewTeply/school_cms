@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>School_CMS - Dokumentace</title>
+	<link rel="stylesheet" type="text/css" href="CSS/docs.css">
+</head>
+<body>
+
+<h1>School_CMS</h1>
+<section class="intro">
+	<br>
+	<b>Spselit Dobruška</b>
+	<br>
+	<br>
+	<b>Rejstřík</b>
+	<br>
+	<ol>
+		<li><a href="#uvod">Úvod</a></li>
+		<li><a href="#technologie">Technologie</a></li>
+		<li><a href="#soubory">Hierarchie souborů</a></li>
+	</ol>
+</section class="intro">
+
+<article id="uvod">
+	<h3>1. Úvod</h3>
+	<p>School_CMS je redakční systém vytvářený specificky pro potřeby škoních stránek <a href="https://www.spselitdobruska.cz/">SPŠElit Dobruška</a></p>
+	<p>Účelem je vytvořit co nejlehčí a nejbezpečnější systém.</p>
+</article>
+
+<article id="technologie">
+	<h3>2. Technologie</h3>
+	<b style="color:var(--red);">Technologie použity</b>
+	<ul>
+		<li>HTML</li>
+		<li>CSS</li>
+		<li>JavaScript</li>
+		<li>PHP</li>
+		<li>Ajax</li>
+		<li>MySQL</li>
+	</ul>
+</article>
+
+<article id="soubory">
+	<h3>3. Hierarchie souborů</h3>
+	<ul style="font-size: 20px">
+		<li>Classy - <span style="font-size: 15px">Obsahují všechny důležité metody (přidávání, editace, atd.) příspěvku, manipulaci s uživatelskými účty, atd.</span></li>
+		<ul><li>Includy - <span style="font-size: 15px">Obsahují všechny reference (funkce) na metody v classách a funkce pro Ajax</span></li></ul>
+		<ul><ul><li>Index <span style="color: #aaa">(WWW stránka)</span></li></ul></ul>
+	</ul>
+	<br>
+	<p>Tato struktura zajišťuje čitelnost a snadné pužití Ajaxu</p>
+</article>
+
+</body>
+</html>

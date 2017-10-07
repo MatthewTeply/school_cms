@@ -1,0 +1,72 @@
+:root {
+
+	--red: #da251c;
+}
+
+* {
+
+	margin: 0px;
+	padding: 0px;
+	font-family: helvetica;
+}
+
+h1 {
+
+	text-align: center;
+	margin-top: 40px;
+	font-size: 50px;
+	font-weight: 400;
+}
+
+.intro {
+
+	text-align: center;
+}
+
+.intro b {
+
+	color: var(--red);
+	margin: 10px;
+	font-size: 20px;
+}
+
+.intro p {
+
+	margin-top: 5px;
+}
+
+.intro ol {
+
+	display: inline-block;
+	margin-top: 5px;
+	margin-bottom: 20px;
+}
+
+.intro ol li {
+
+	text-align: left;
+}
+
+article {
+
+	box-shadow: 0px 1px 3px #aaa;
+	margin: 10px;
+	padding: 15px;
+}
+
+article h3 {
+
+	font-weight: 400;
+	color: #fff;
+	background-color: var(--red);
+	margin: -15px;
+	padding: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+	margin-bottom: 10px;
+}
+
+article ul {
+
+	margin-left: 15px;
+}
